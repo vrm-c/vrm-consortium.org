@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>VRMコンソーシアム 設立準備会</title>
+
+<meta name="keywords" content="VRM,3D,VTuber,3Dアバターモデル,3Dモデル,統一ファイルフォーマット,VR,仮想現実">
+<meta name="description" content="VRMコンソーシアムは、プラットフォーム非依存の3Dアバターファイルフォーマット「VRM」の普及と統一規格の策定を目的とした団体です。">
+
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+<link rel="stylesheet" type="text/css" href="common/css/master.css">
+<link rel="stylesheet" type="text/css" href="common/css/top.css">
+
+<script type="text/javascript" src="./common/js/smoothScroll.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="./common/js/html5shiv-printshiv.js"></script><![endif]-->
+
+</head>
+<body id="skrollr-body">
+
+
+<header id="pagetop">
+	<div class="inner">
+		<div>
+			<ul>
+				<li><a href="#member">会員について</a></li>
+				<li><a href="#organizer">発起人・オブザーバー</a></li>
+				<li><a href="#footer">お問い合わせ</a></li>
+			</ul>
+		</div>
+		<h1><img src="common/img/vrm-consortium.png" alt="VRMコンソーシアム 設立準備会"></h1>
+		<nav>
+			<ul>
+				<li><a href="#about">VRMコンソーシアムの設立について</a></li>
+				<li><a href="#vrm">VRMとは</a></li>
+				<li><a href="#method">技術仕様について</a></li>
+				<li><a href="#future">VRMが目指す未来</a></li>
+				<li><a href="#mission">VRMコンソーシアムのミッション</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<div id="contents">
+	
+	<section id="mv">
+		<div class="inner">
+			<img src="common/imgtop/mv_ph.png" alt="VRMコンソーシアム 設立準備会">
+			<div>
+				<p>
+					3Dアバター向けファイルフォーマット<br>
+					「VRM」の策定・普及を目的とした<br>
+					「VRMコンソーシアム」<br>
+					<br>
+					2019年2月の設立を目指し、<br>
+					現在 会員を募集中です。
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="inner">
+			<h2>VRMコンソーシアムの設立について</h2>
+			<p>
+				2017年末からのVTuberの登場以降、3Dアバターモデルを取り巻く環境は劇的に変化しています。<br>
+				3Dモデル活用の歴史が長いアニメ・ゲーム分野を始め、今後の市場成長が見込まれるAR/VR/MR分野においても<br>
+				3Dアバターモデルの制作・利用の需要はますます高まっていくことと思われます。
+			</p>
+			<p>
+				一方で、VRやVTuber等でそれら3Dアバターモデルを取り扱おうとした場合、利用するアプリケーションごとに<br>
+				仕様が異なっていたり、アバターの視点・骨格がVR内では適切に設定できておらず、複雑な作業が必要など、<br>
+				クリエイターや開発者が3Dアバターモデルを容易に創作・活用できる環境が整っていないのが実状です。
+			</p>
+			<p>また、3Dモデルの知財・著作権や、VTuber自身の人格など、新たな権利保護の必要性も生まれて来ています。</p>
+			<p>
+				そこで、この課題を改善すべく<br>
+				<span>
+					<strong>「人型のキャラクターや3Dアバター」において</strong><br>
+					<strong>細かいモデルデータの差違を吸収・統一し</strong><br>
+					<strong>アプリケーション側の取り扱いを簡単にする</strong><br>
+				</span>
+				プラットフォーム非依存の3Dアバターファイルフォーマット「VRM」を提唱するとともに、<br>
+				これらVRMの普及と統一規格の策定を目的とした「VRMコンソーシアム」を設立するものであります。
+			</p>
+		</div>
+	</section>
+
+	<section id="vrm">
+		<div class="inner">
+			<img src="common/imgtop/vrm_ph.jpg" alt="VRMとは" class="r">
+			<h2>VRMとは</h2>
+			<p>VR時代の3Dキャラクター・アバター使用を想定したプラットフォーム非依存のファイル形式です。</p>
+			<p>従来の3Dモデルとしてのテクスチャやボーンといった情報に加え、視線設定など一人称で操作するアバターに必要な情報を扱えるようにし、環境により異なるスケールや座標系などを統一することで、3Dアバターが配信・ゲームなどあらゆるプラットフォームで使用されることを想定しています。</p>
+			<p>また、人が操作して人格を演じるアバターの特性を考慮して、このアバターを他人が使用しても良いか、暴力表現をしても良いか、などアバター特有の権利までもファイルに埋め込むことが可能です。</p>
+			<p>将来的には3Dモデルの権利保護の機能を兼ね備え、アイテムやアバターの着せ替え販売を実現するなど3Dモデルが流通する際の標準フォーマットを目指していきます。</p>
+		</div>
+	</section>
+
+	<section id="method">
+		<div class="inner">
+			<h2>VRMの技術仕様について</h2>
+			<p>
+				「VRM」はVRアプリケーション向けの人型3Dアバター（3Dモデル）データを扱うためのファイルフォーマットです。<br>
+				glTF2.0をベースとしており、誰でも自由に利用することができます。<br>
+				また、Unity向けのVRMファイルの読み書きを行うC#による標準実装（UniVRM）がオープンソースで提供されます。<br>
+				<a href="https://dwango.github.io/vrm/" target="_blank"><strong>VRMドキュメント</strong>https://dwango.github.io/vrm/</a>
+			</p>
+			<h3>主な特徴</h3>
+			<dl>
+				<dt>プラットフォーム非依存で人型のキャラクター3Dモデルデータを取り扱うことが可能</dt>
+				<dd>
+					<ul>
+						<li>3D標準フォーマット glTF2.0をベースとし、人型モデルを取り扱うための制約と拡張を追加<br>標準フォーマットをベースとしているため実装が容易</li>
+						<li>テクスチャやマテリアルなどすべてのデータを1ファイルにまとめて取り扱い可能</li>
+						<li>スケール（1.00 = 1m）、座標系と向き（Y-up, -Z方向）、骨の構造（Unity Humanoid準拠構成, Tスタンス, 各骨にローカルの回転などを入れない）などについて標準の構成が決められており、モデリングツールによる差違の影響を受けない</li>
+						<li>Blend Shapeやマテリアルの透明度など「キャラクターの表情」を取り扱うための各種技法について、その技法の差違をVRM側で吸収し、統一したAPIで操作が可能</li>
+						<li>VRでのアバター利用のための「一人称視点再現のための情報」に対応</li>
+						<li>キャラクターの髪の毛など、物理エンジンに依存しない「揺れ物」標準実装を用意、設定可能に</li>
+						<li>標準実装としてのマテリアル（シェーダ）を用意。標準的なPBRだけでなくトゥーンシェーディングやUnlitレンダリングを設定可能</li>
+						<li>タイトルや作者名などのメタ情報だけでなく、アバターに特化したライセンス情報も内包可能</li>
+					</ul>
+				</dd>
+				<dt><em>モデルデータ自体に対しての改変・再配布規定（Creative Commonsなど）が設定可能</em></dt>
+				<dt><em>モデルデータを使用して「人格を演じる」ことについての許諾規定が可能</em></dt>
+			</dl>
+		</div>
+	</section>
+
+	<section id="future">
+		<div class="inner">
+			<h2>VRMが目指す未来</h2>
+			<h3><span>VRMで真に自由な仮想世界を実現する</span></h3>
+			<div class="message">
+				<p>
+					お気に入りの3Dアバターが、プラットフォームやサービスの垣根を越え<br>
+					さまざまな仮想世界を自由に行き来できる
+				</p>
+				<p>自分で作成した3Dアバターが、難しい設定を必要とせず、どんな場所でもすぐに使える</p>
+				<p>
+					アニメやゲームで憧れた、あのキャラクターや世界に<br>
+					仮想世界や拡張現実の中で「ホンモノ」と触れ合うことができる
+				</p>
+				<p>
+					XR技術がもたらす無限の可能性を<br>
+					誰もがハッピーになれるように<br>
+					VRMによって正しく実現したい
+				</p>
+				<em>そんな未来をVRMは目指しています</em>
+			</div>
+			<div class="movie">
+				<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gehxefOqAIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<p>
+					<span>VRMがもたらす未来を発起人13社のプロダクトで表現したイメージムービー</span><br>
+					<small>&copy;VRMコンソーシアム</small>
+				</p>
+			</div>
+			<!--
+			-->
+		</div>
+	</section>
+
+	<section id="mission">
+		<div class="inner">
+			<h2>VRMコンソーシアムのミッション</h2>
+			<ol>
+				<li>
+					<h3>統一規格、技術仕様の検討<span>（技術コミッティー）</span></h3>
+					<ul>
+						<li>3D/AR/VR/MR分野における、3Dアバターおよび3Dモデルの標準化に向けた技術仕様の検討を行う</li>
+						<li>VRMを使用した3Dモデルの権利保護を実現するための技術的手法の検討を行う</li>
+					</ul>
+				</li>
+				<li>
+					<h3>知財・著作権等の検討<span>（知財・著作権コミッティー）</span></h3>
+					<ul>
+						<li>3Dモデルにおける作品・IPの知財・著作権管理についての検討を行う</li>
+						<li>アバターにおける人格など、新たに保護が必要な権利についての定義・法的根拠等の検討を行う</li>
+					</ul>
+				</li>
+				<li>
+					<h3>国内・国外への標準化の推進<span>（VRM標準化推進コミッティー）</span></h3>
+					<ul>
+						<li>技術仕様や各コミッティーでの検討結果についてドキュメント化し、サイト上ならびにカンファレンス等で広く情報発信を行う</li>
+						<li>OS事業者、関係省庁・各種業界団体とのコネクションを強化し、VRMを活用した新たな市場環境を構築する</li>
+						<li>日本発の国際標準化規格として、海外主要プレーヤーとのコネクション確立および海外主要サービス上でのVRM対応を推進する</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+	</section>
+
+	<section id="member">
+		<div class="inner">
+			<h2>会員について</h2>
+			<div>
+				<p>現在、設立に向けてご賛同いただける会員を募集中です。</p>
+			</div>
+			<h3>会員のお申し込み・お問い合わせ</h3>
+			<dl>
+				<dt>VRMコンソーシアム準備会 事務局</dt>
+				<dd><a href="&#109;&#97;&#105;lt&#111;&#58;&#118;&#114;&#109;c-pr&#64;&#118;i&#114;&#116;ual&#99;&#97;st.jp">v&#114;m&#99;-pr&#64;&#118;ir&#116;&#117;alc&#97;&#115;&#116;.&#106;&#112;</a></dd>
+			</dl>
+			<h4>会員制度案</h4>
+			<table>
+				<tr>
+					<th>正会員</th>
+					<th>賛助会員</th>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>議決権有り。各コミッティ−での検討、OSSからの正規仕様採択など、VRM方針決定に参画可</li>
+							<li>コンソーシアム主催イベントへの参加・会員価格特典など</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>議決権無し。仕様・ガイドライン等の策定情報について優先的に共有</li>
+							<li>コンソーシアム主催イベントへの参加・会員価格特典など</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<p>
+				それぞれ年会費の徴収を検討しています。<br>
+				詳しくはVRMコンソーシアム設立準備会事務局までお問い合わせください。
+			</p>
+		</div>
+	</section>
+
+	<section id="organizer">
+		<div class="inner">
+			<h2>発起人・オブザーバー</h2>
+			<h3>【VRMコンソーシアム 発起人】</h3>
+			<ul class="flex">
+				<li><a href="http://i-vr.jp/" target="_blank">IVR</a></li>
+				<li><a href="http://www.xvi.co.jp/" target="_blank">株式会社エクシヴィ</a></li>
+				<li><a href="https://s-court.me/" target="_blank">株式会社S-court</a></li>
+				<li><a href="https://duo7.co.jp/" target="_blank">株式会社DUO</a></li>
+				<li><a href="http://dwango.co.jp/" target="_blank">株式会社ドワンゴ</a></li>
+				<li><a href="https://virtualcast.jp/" target="_blank">株式会社バーチャルキャスト</a></li>
+				<li><a href="https://www.mirrativ.co.jp/" target="_blank">株式会社ミラティブ</a></li>
+				<li><a href="https://le.wrightflyer.net/" target="_blank">株式会社Wright Flyer Live Entertainment</a></li>
+				<li><a href="https://corp.cluster.mu/" target="_blank">クラスター株式会社</a></li>
+				<li><a href="https://www.crypton.co.jp/" target="_blank">クリプトン・フューチャー・メディア株式会社</a></li>
+				<li><a href="http://showroom.co.jp/" target="_blank">SHOWROOM株式会社</a></li>
+				<li><a href="https://www.pixiv.co.jp/" target="_blank">ピクシブ株式会社</a></li>
+				<li><a href="https://unity3d.com/jp" target="_blank">ユニティ・テクノロジーズ・ジャパン合同会社</a></li>
+			</ul>
+			<h3>【オブザーバー】</h3>
+			<ul>
+				<li><a href="https://www.nintendo.co.jp/" target="_blank">任天堂株式会社</a></li>
+			</ul>
+		</div>
+	</section>
+	
+</div><!--container-->
+
+
+<footer id="footer">
+	<h2>お問い合わせ</h2>
+	<p>会員のお申し込み・お問い合わせ：VRMコンソーシアム設立準備会 事務局</p>
+	<a href="&#109;&#97;&#105;lt&#111;&#58;&#118;&#114;&#109;c-pr&#64;&#118;i&#114;&#116;ual&#99;&#97;st.jp">v&#114;m&#99;-pr&#64;&#118;ir&#116;&#117;alc&#97;&#115;&#116;.&#106;&#112;</a>
+</footer>
+
+</body>
+</html>

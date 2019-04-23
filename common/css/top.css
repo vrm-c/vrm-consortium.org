@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* contents ********** */
+#method  ul,
+#mission ul,
+#member  ul { list-style:disc; padding-left:1.2em; }
+#method  li,
+#mission ul li,
+#member  li { margin-bottom:.8em; text-align:justify; }
+
+
+/* mv */
+#mv         { background:url(../imgtop/mv_bg.png) repeat-x; padding:2em 0; }
+#mv img     { margin-bottom:1em; width:700px; }
+#mv div div { position:absolute;
+	background:url(../imgtop/mv_box_bg.png); background-size:cover;
+	display:table; bottom:0; right:20px; width:26em; height:25.5em;
+}
+#mv div div p {
+	display:table-cell; vertical-align:middle; padding-left:1.5em;
+	color:#FFF; line-height:2em; font-size:110%;
+}
+
+/* about */
+#about      { background:url(../imgtop/about_bg.jpg) center center; background-size:cover; }
+#about h2   { background:url(../imgtop/about_bdr.png) no-repeat bottom center; border:0; padding-bottom:.3em; }
+#about p    { text-align:center; font-size:110%; }
+#about span { display:block; padding:1em 0; font-size:135%; line-height:1.8em; }
+
+/* vrm */
+#vrm h2 { width:46%; text-align:left; }
+#vrm p  { width:43%; padding-left:3%; }
+
+/* method */
+#method   { border-top:1px solid #CCC; }
+#method p { text-align:center; }
+#method a {
+	display:inline-block; padding:.5em 1em; margin-top:1em;
+	line-height:1em; text-decoration:none; text-align:center; color:#333;
+	border:1px solid #CCC; border-radius:1.3em;
+}
+#method a strong { margin-right:.5em; }
+#method h3 {
+	margin:0 auto -1em; display:block; background:#666; border-radius:1em; width:5em; padding:0 .5em;
+	text-align:center; font-weight:normal; letter-spacing:.1em; color:#FFF;
+}
+#method dl { border:1px solid #666; padding:1em 0 0; }
+#method dt { text-align:center; background:#CCC; padding:1em 0 0; }
+#method dt:first-child { font-weight:bold; background:none; }
+#method dt:last-child  { padding:0 0 1em; }
+#method ul { display:flex; flex-wrap:wrap; padding:1em 0; }
+#method li { width:42%; margin:0 0 .8em 6%; font-size:90%; }
+
+/* future */
+#future    { background:url(../imgtop/future_bg.jpg) no-repeat center top #000; color:#FFF; }
+#future h2 { font-size:130%; letter-spacing:.1em; border:0; margin:0; }
+#future h3 { font-size:220%; letter-spacing:.1em; text-align:center; white-space:nowrap; display:table; }
+#future h3 span { padding:0 .5em; }
+#future h3:before,
+#future h3:after {
+	content:''; display:table-cell; width:50%;
+	background:url(../imgtop/future_h_bdr.png)repeat-x center center ;
+}
+#future .message    { margin:2em 0 4em; }
+#future .message p  { text-align:right; }
+#future .message em {
+	display:block; padding:0 0 1em; font-size:150%;
+	background:url(../imgtop/future_box_bdr.png) bottom left no-repeat;
+}
+.movie div  { width:560px; height:315px; margin:0 auto 1em; }
+.movie p    { text-align:center; }
+.movie span { border-bottom:1px solid #FFF; }
+
+/* mission */
+#mission ol { list-style:none; padding:0; }
+#mission div ol > li { float:left;
+	width:27%; padding:1em 2.5% 0 1.5%; border:1px solid #CCC;
+	background:url(../imgtop/mission_li_bg.png) no-repeat;
+	box-shadow:        7px 7px 0 0 #CCC;
+	-moz-box-shadow:   7px 7px 0 0 #CCC;
+	-webkit-box-shadow:7px 7px 0 0 #CCC;
+}
+#mission div ol > li:first-child { margin-right:3.2%; }
+#mission div ol > li:last-child  { float:right; }
+#mission h3 span { display:block; font-size:80%; line-height:1em; margin-bottom:1em; }
+
+/* member */
+#member         { background:#2870b1; color:#FFF; }
+#member h2      { border:1px solid #FFF; text-align:left; padding:.2em .5em .1em; }
+#member div div { border-bottom:1px dotted #84b5e0; padding-bottom:1em; margin-bottom:2em; }
+#member h3      {
+	background:#FFF; border-radius:.7em; display:inline-block;
+	color:#2870b1; font-size:105%; line-height:1em; padding:.3em .5em .2em; margin-bottom:.5em;
+}
+#member dt      { float:left; padding:0 1em 1em 0; }
+#member a       { color:#FFF; }
+#member h4      { clear:both; padding-top:1em; line-height:1em; }
+#member table   { color:#333; text-align:left; margin:.4em 0; }
+#member th      { width:50%; padding:.4em .8em; }
+#member td      { width:50%; padding: 1em 1.5em .2em .8em; }
+#member td li   { font-size:90%; line-height:1.5em; }
+
+/* organizer */
+#organizer    { background:#181818; color:#FFF; }
+#organizer h2 { font-size:160%; border:0; margin:0; }
+#organizer h3 { text-align:center; margin:2em 0 .5em; }
+#organizer li { text-align:center; }
+#organizer .flex    { display:flex; flex-wrap:wrap; }
+#organizer .flex li { width:50%; }
+#organizer a  { color:#FFF; }
