@@ -157,4 +157,9 @@ div,
 	background:#EEE;
 }
 #contents p.info-not { text-align:center; letter-spacing:.2em; }
+
+/* 2019.11.15 added --------------------------------------------*/
+#news dt {
+	color: #999;
+}
 /**/
