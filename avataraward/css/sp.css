@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+/*---------------------------- 共通部分 ----------------------------*/
+
+html, body, header, nav, article, section, aside, footer,
+div, span, p, h1, h2, h3, h4,
+ul, ol, li, dl, dt, dd,
+table, tr, th, td, tbody, thead, tfoot {
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, article, section, aside, footer {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+
+p {
+  margin: 15px 0 15px 0;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
+
+
+
+/*---------------------------- スマートフォン向けのスタイル ----------------------------*/
+@media only screen and (max-width: 679px) {
+
+
+/*---------------------------- ページ全体の指定 ----------------------------*/
+
+html{
+  font-size: 75%;
+}
+
+body {
+  width: 100%;
+  font: 1.6rem;
+  color: #fff;
+  letter-spacing: 0.05em;
+  -webkit-text-size-adjust: 100%;
+  background: rgb(62,29,72);
+  background: linear-gradient(315deg, rgba(62,29,72,1) 0%, rgba(8,43,60,1) 100%);
+}
+
+section{
+  margin: 32px auto;
+}
+
+a:link{color: #fff;}
+a:visited{color: #fff;}
+
+ul{
+  width: 90%;
+  margin: 16px auto;
+  list-style: disc;
+  padding-left: 32px;
+  font-size: 1.2rem;
+}
+
+/*---------- メイン画像 ----------*/
+
+#header-img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+.main_image {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+
+/*---------- メインコンテンツ ----------*/
+
+#container {
+  padding: 0;
+}
+
+
+/*---------- コンテンツ ----------*/
+
+#contents {
+  padding: 13px 0 25px 0;
+  font-size: 1em;
+}
+
+#contents h2 {
+  margin: 0 10px 10px;
+  padding: 14px 0 14px 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-shadow: 0 0 21px #fff;
+  border-bottom: 1px solid #fff;
+
+}
+
+#contents h3 {
+  margin: 12px 0 14px 0;
+  padding: 20px 10px 10px 8px;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#contents p {
+  margin: 0 16px 0 16px;
+  padding: 2px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+#contents p.terms {
+  height: 300px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}
+
+
+/*---------- フッター ----------*/
+
+#footer {
+  width: auto;
+  padding: 20px 0 0 0;
+  line-height: 1.7;
+  text-align: center;
+}
