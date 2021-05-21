@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*--------------------------------------------*/
+body {
+	font-family: "メイリオ", meiryo, Osaka, "ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック", sans-serif;
+	/*
+	font-family: "ヒラギノ明朝 Pro","HiraMinPro","ＭＳ 明朝","ＭＳ Ｐ明朝","HG明朝E","MS PMincho",serif;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif;
+	*/
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	line-height:1em;
+	color:#333;
+	min-width:1000px;
+	background:#FFF;
+}
+header a, footer a{ color:#333; text-decoration:none; display:inline-block; }
+a:hover{ text-decoration:none; }
+h1 {font-size:220%;}
+h2 {font-size:210%;}
+h3 {font-size:120%;}
+h4 {font-size:120%;}
+h5 {font-size:100%;}
+h6 {font-size:100%;}
+i  {font-size:80%; font-style:normal; color:#999;}
+h1,h2,h3,h4,h5,h6,div,ul,li,dl,dt,dd,p,a,table,tr,td,address,img{
+	margin:0px;
+	padding:0px;
+	border-width:0px;
+	line-height:1.8em;
+	font-style:normal;
+}
+ul {list-style:none outside;}
+input,textarea {
+	font-family: "メイリオ", meiryo, Osaka, "ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック", sans-serif;
+	color:#555555;
+}
+em {font-style:normal;}
+sup { font-size:60%; }
+/*************/
+#clear, .clear {clear:both;}
+.c {margin-left:auto; margin-right:auto;}
+.l {float:left;}
+.r {float:right;}
+#main .t_c {text-align:center;}
+img.l { margin:0 10px 10px 0; }
+img.r { margin:0 0 10px 10px; }
+
+/* table */
+table { border-spacing:1px; }/*border-collapse:collapse;*/
+th { background:#CCC; }
+td { background:#FFF; }
+
+/*
+.ph img,
+img.ph {
+	border:3px solid #FFF; 
+	box-shadow:2px 2px 3px 2px #CCCCCC;
+	-moz-box-shadow:2px 2px 3px 2px #CCCCCC;
+	-webkit-box-shadow:2px 2px 3px 2px #CCCCCC;
+}
+
+/* -------------------------------------------- */
+a:hover
+{
+	opacity: .50; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=50); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=50)"; /* IE 8 */
+	-khtml-opacity: .50; /* Safari 1.x */
+	-moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+/* --------------------------------------------*/
+
+/* wrapper */
+header {}
+footer { width:100%; min-width:1000px; margin:0 auto; }
+
+/* inner */
+.inner { display:block; clear:both; width:960px; margin:0 auto; padding:20px; position:relative; }
+
+/* header ********** */
+header .inner { padding:0 20px; }
+header {
+	font-size:85%;
+	padding-bottom:1em; border-bottom:1px solid #CCC; margin-bottom:.2em;
+}
+header ul { display:flex; justify-content:space-between; }
+header a  { line-height:1em; }
+header div div p  { float:left;  background:#e4f5ff; border-radius:0 0 5px 5px; padding:.5em 1.5em; }
+header div div ul { float:right; background:#005bac; border-radius:0 0 5px 5px; padding:.5em 1em; }
+header div div a  { color:#FFF; padding:0 1em; border-left:1px solid #FFF; }
+header div div li:first-child a { border:0; }
+h1 img { margin:.8em 0 .5em; }
+header nav   { font-weight:bold; }
+header nav a { background:url(../img/nav_icon.png) no-repeat left; background-size:1em; padding-left:1.1em; }
+
+/* contents ********** */
+section { padding:4em 0; }
+section h2 { border-bottom:1px solid #666; margin-bottom:1em; text-align:center; }
+section p  { text-align:justify; margin-bottom:1em; }
+
+/* footer ********** */
+footer    { text-align:center; color:#FFF; padding:5em 0;
+	background:url(../img/footer_bg.jpg) center center; background-size:cover;
+}
+footer h2 { text-align:center; font-size:160%; padding:0 0 1em; }
+footer p  { text-align:center; font-size:120%; margin-bottom:.5em; }
+footer a  { text-align:center; color:#FFF;
+	width:16em; padding:.8em 0; line-height:1em;
+	border:1px solid #FFF; border-radius:1.3em;
+}
+
+/* copyright *
+footer .copyright{ display:block; background:#000; text-align:center; margin-top:6em }
+
+/* pagetop *
+footer .pagetop{}
+footer .pagetop a{}
+
+/* --------------------------------------------*/
+
+/* clearfix */
+nav:after,
+section:after,
+article:after,
+div:after,
+.clearfix:after
+{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+nav,
+section,
+article,
+div,
+.clearfix
+{ display:inline-block;}
+/* ¥*/
+* html nav,
+* html section,
+* html article,
+* html div,
+* html .clearfix
+{ height:1%; }
+nav,
+section,
+article,
+div,
+.clearfix
+{ display:block; }
+/* */
+
+/* --------------------------------------------*/
+
+/* info-not 工事中 *
+.info-not {
+	padding:200px 15px;
+	border:1px solid #CCC; border-radius:15px;
+	background:#EEE;
+}
+#contents p.info-not { text-align:center; letter-spacing:.2em; }
+
+/* 2019.11.15 added --------------------------------------------*/
+#news dt {
+	color: #999;
+}
+/**/
