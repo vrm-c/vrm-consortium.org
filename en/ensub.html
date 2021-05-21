@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>VRM Consortium</title>
+
+<meta name="keywords" content="VRM,3D,VTuber,3D avatar model,3D model,unified file format,VR,virtual reality">
+<meta name="description" content="The VRM Consortium is an organization that aims to spread the platform-independent 3D avatar file format VRM and formulate a unified standard.">
+
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+<link rel="stylesheet" type="text/css" href="common/css/master.css">
+<link rel="stylesheet" type="text/css" href="common/css/top.css">
+
+<script type="text/javascript" src="./common/js/smoothScroll.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="./common/js/html5shiv-printshiv.js"></script><![endif]-->
+
+</head>
+<body id="skrollr-body">
+
+
+<header id="pagetop">
+	<div class="inner">
+		<div>
+				<p style="background: none;font-size:1.2em;font-weight:bold;">VRM Consortium, Inc.</p>
+			<ul>
+				<li><a href="#corporation">Corporate Information</a></li>
+				<li><a href="#member">About Membership</a></li>
+				<li><a href="#organizer">List of members and observers</a></li>
+				<li><a href="#footer">Contact Us</a></li>
+			</ul>
+		</div>
+		<h1><img src="common/img/vrm-consortium.png" alt="VRM Consortium" width="800"></h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About the VRM Consortium</a></li>
+				<li><a href="#vrm">What is VRM?</a></li>
+				<li><a href="#method">Technical Specifications</a></li>
+				<li><a href="#future">The Future of VRM</a></li>
+				<li><a href="#mission">Mission of the VRM Consortium</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+
+<div id="contents">
+
+	<section id="mv">
+		<div class="inner">
+			<img src="common/imgtop/mv_ph.png" alt="VRM Consortium">
+			<div>
+				<p>
+          VRM Consortium, <br>
+          a general incorporated association,<br>
+          for the purpose of developing <br>
+          and disseminating the file format "VRM" for 3D avatars.<br>
+					<br>
+					Established on April 24, 2019.<br>
+
+				</p>
+			</div>
+		</div>
+	</section>
+
+<section id="news">
+		<div class="inner">
+			<h2>Notice</h2>
+			<dl>
+				<dd>2020.04.08:A "Super Hackathon" was held in collaboration with SPAJAM
+				<li><a href="https://cho-hackathon.spajam.jp/" target="_blank">Click here for the website </a></li>
+				2020.1.31：UniVRM 1.0 Draft implementation is now available!
+				<li><a href="https://github.com/vrm-c/UniVRM_1_0" target="_blank">UniVRM 1.0 </a></li>
+				<dd>2019.11.29：VRM 1.0 Draft is now available
+				<li><a href="https://github.com/vrm-c/vrm-specification/tree/master/specification/VRMC_vrm-1.0_draft" target="_blank">English</a></li>
+				<li><a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/VRMC_vrm-1.0_draft/README.ja.md" target="_blank">Japanese</a></li>
+			</dl>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="inner">
+			<h2>About the VRM Consortium</h2>
+			<p>
+        Since the emergence of VTubers since the end of 2017, <br>
+        the environment surrounding 3D avatar models has changed dramatically.<br>
+        Demand for the production and use of 3D avatar models is expected to increase in the animation and game fields, <br>
+        where 3D models have a long history of use, as well as in the AR/VR/MR fields, where market growth is expected in the future.
+			</p>
+			<p>
+				On the other hand, when using 3D avatar models in VR or VTuber, <br>
+        the specifications are different for each application used, <br>
+        the avatar's viewpoint and skeleton are not properly set in VR, <br>
+        and complicated work is required.
+			</p>
+			<p>
+        In addition, there is a need to protect new rights, <br>
+        such as intellectual property and copyrights for 3D models and the personalities of VTubers themselves.
+      </p>
+			<p>
+				So, in order to improve this issue<br>
+				<span>
+					<strong>In "humanoid characters and 3D avatars.</strong><br>
+					<strong>Absorb and unify minor differences in model data</strong><br>
+					<strong>Ease of handling on the application side</strong><br>
+				</span>
+				In addition to advocating the platform-independent 3D avatar file format "VRM", <br>
+        the "VRM Consortium" was established for the purpose of disseminating these VRMs and formulating unified standards.
+
+				<p><a href="./common/pdf/ja_release.pdf">Press Release(Jp)</a></p>
+				<p><a href="./common/pdf/en_release.pdf">Press Release(En)</a></p>
+
+
+
+			</p>
+		</div>
+	</section>
+
+	<section id="vrm">
+		<div class="inner">
+			<img src="common/imgtop/vrm_ph.jpg" alt="VRMとは" class="r">
+			<h2>What is VRM?</h2>
+      <p>This is a platform-independent file format designed for use with 3D characters and avatars in the VR era.</p>
+      <p>In addition to the conventional information such as textures and bones for 3D models, the file format can handle the information necessary for first-person avatars such as gaze settings, etc. By unifying the different scales and coordinate systems depending on the environment, it is assumed that 3D avatars will be used on all platforms such as distribution and games. We also envision that 3D avatars will be used in all kinds of platforms such as distribution and games.</p>
+      <p>In addition, taking into account the characteristics of avatars, which can be manipulated by people to act out their personalities, it is possible to embed rights specific to avatars in the file, such as whether it is okay for other people to use the avatar or whether it is okay to use violent expressions.</p>
+      <p>In the future, we will combine the function of protecting the rights of 3D models and aim to create a standard format for the distribution of 3D models, such as realizing the sale of items and avatars that can be changed.</p>
+		</div>
+	</section>
+
+	<section id="method">
+		<div class="inner">
+			<h2>Technical Specifications of VRM<</h2>
+			<p>
+        VRM is a file format for handling human-like 3D avatar (3D model) data for VR applications.<br>
+        It is based on glTF2.0 and can be freely used by anyone.<br>
+        In addition, a standard implementation in C# (UniVRM) for reading and writing VRM files for Unity is provided as open source.<br>
+				<a href="https://vrm.dev/" target="_blank"><strong>VRM Documentation</strong>https://vrm.dev/</a>
+			</p>
+			<h3>Main Features</h3>
+      <dl>
+        <dt>Platform-independent handling of 3D model data for humanoid characters</dt>
+          <dd>
+            <ul>
+              <li>Based on the 3D standard format glTF2.0, with additional constraints and extensions for handling humanoid models<br>Easy to implement since it is based on a standard format</li>
+      				<li>All data, including textures and materials, can be handled in a single file.</li>
+      				<li>There is a standard configuration for scale (1.00 = 1m), coordinate system and orientation (Y-up, -Z), bone structure (Unity Humanoid compliant configuration, T-stance, no local rotation for each bone), etc., which is not affected by differences in modeling tools.</li>
+      				<li>Various techniques for handling "character expressions" such as Blend Shape and material transparency are absorbed by the VRM side, and can be operated with a unified API.</li>
+      				<li>Support for "information for reproducing the first-person perspective" for using avatars in VR</li>
+      				<li>Prepared a standard implementation of "shaking objects" independent of the physics engine, such as character hair, which can be set.</li>
+      				<li>Materials (shaders) are available as standard implementations. In addition to the standard PBR, toon shading and Unlit rendering can be configured.</li>
+      				<li>In addition to meta-information such as title and author name, avatar-specific license information can be included.</li>
+      			</ul>
+          </dd>
+          <dt><em>Modification and redistribution rules (Creative Commons, etc.) can be set for the model data itself.</em></dt>
+          <dt><em>Permission to use model data to "play a character" can be specified.</em></dt>
+        </dl>
+		</div>
+	</section>
+
+	<section id="future">
+		<div class="inner">
+			<h2>The Future of VRM</h2>
+      <h3><span>Realizing a truly free virtual world with VRM</span></h3>
+      <div class="message">
+        <p>
+          Your favorite 3D avatars will transcend the boundaries of platforms and services.<br>
+          You can move freely between different virtual worlds.
+        </p>
+        <p>You can use your own 3D avatar right away in any location without any complicated settings.</p>
+        <p>
+          To the characters and worlds that I have admired in anime and games.<br>
+          Interact with the "real thing" in virtual and augmented reality.
+        </p>
+        <p>
+          The infinite possibilities of XR technology.<br>
+          To make everyone happy.<br>
+          We want to get it right with VRM.
+        </p>
+        <em>That's the future VRM is aiming for.</em>
+      </div>
+		</div>
+	</section>
+
+	<section id="mission">
+		<div class="inner">
+			<h2>Mission of the VRM Consortium</h2>
+      <ol>
+        <li>
+          <h3>Examination of unified standards and technical specifications<span>(Technical Committee)</span></h3>
+          <ul>
+            <li>To study technical specifications for standardization of 3D avatars and 3D models in the field of 3D/AR/VR/MR</li>
+            <li>To study technical methods to achieve rights protection of 3D models using VRM.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Examination of intellectual property and copyright, etc.<span>(IP/Copyright Committee)</span></h3>
+          <ul>
+            <li>To examine intellectual property and copyright management of works and IP in 3D models</li>
+            <li>Examine the definition and legal basis for new rights that need to be protected, such as personality in avatars.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Promote standardization domestically and internationally<span>(VRM Standardization Promotion Committee)</span></h3>
+          <ul>
+            <li>Document the technical specifications and the results of discussions by each committee, and disseminate the information widely on the website and at conferences.</li>
+            <li>Strengthen connections with OS providers, related ministries, and various industry groups to create a new market environment using VRM.</li>
+            <li>As a Japan-originated international standard, establish connections with major overseas players and promote VRM support on major overseas services.</li>
+          </ul>
+        </li>
+      </ol>
+		</div>
+	</section>
+
+	<section id="corporation" style="background:#000; color:#fff" >
+			<div class="inner">
+				<h2>Corporate Information</h2>
+        <ul style="margin: 0 auto; width: 550px;">
+          <li>Name：VRM Consortium, Inc.</li>
+          <li>Establishment date: April 24, 2019</li>
+          <li>Location: 4-12-15 Ginza, Chuo-ku, Tokyo</li>
+          <li>Subject matter：
+            <ul>
+              <li> ⑴ Formulation of VRM, a unified standard for 3D avatar models</li>
+              <li> ⑵Collection and provision of information related to VRM</li>
+              <li> ⑶Promotion and advertising of VRM</li>
+              <li> ⑷Proposal and development of legal protection for 3D models created by VRM</li>
+              <li> ⑸Exchange and cooperation with domestic and foreign related organizations regarding VRM</li>
+              <li> ⑹Activities necessary to achieve the objectives of the corporation in addition to those listed in the preceding item.</li>
+            </ul>
+          </li>
+          <li>Board of Directors：
+            <ul>
+              <li>Representative Director　　Yohei Ishii （Virtual Cast Inc.）</li>
+              <li>director　　　　Shinnosuke Iwaki （Virtual Cast Inc.）</li>
+              <li>director　　　　Hiroki Omae  （Unity Technologies Japan Inc.）</li>
+              <li>director　　　　Norio Shimizu （pixiv Inc.）</li>
+              <li>director　　　　Shun Kubota  （Mogura Inc.）</li>
+              <li>director　　　　Yukihiro Matsumoto （MOE Group Holdings Ltd.）</li>
+              <li>supervisor　　　Naomasa Nakagawa  （Lawyer　 HIBIYA PARK LAW OFFICES）</li>
+            </ul>
+          </li>
+        </ul>
+			</div>
+		</section>
+
+	<section id="member">
+		<div class="inner">
+			<h2>About Membership</h2>
+			<div>
+				<p>We are currently looking for members who can support this project.</p>
+			</div>
+			<h3>Membership Application and Inquiries</h3>
+			<dl>
+        <dt>VRM Consortium Secretariat</dt>
+        <dd><a href="mailto:vrmc-pr@vrm-consortium.org">vrmc-pr@vrm-consortium.org</a></dd>
+			</dl>
+			<h4>membership system</h4>
+      <table>
+        <tr>
+          <th>regular member</th>
+          <th>supporting member</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Voting rights. Can participate in VRM policy making, including review by committees and adoption of official specifications from OSS.</li>
+              <li>Participation in consortium-sponsored events, member price privileges, etc.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>No voting rights. Information on the development of specifications and guidelines is shared on a priority basis.</li>
+              <li>Participation in consortium-sponsored events, member price privileges, etc.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <p>
+        Each has an annual membership fee.<br>
+        For more information, please contact the VRM Consortium Secretariat.
+        <a href="./common/pdf/teikan.pdf">Articles of Incorporation</a>
+      </p>
+		</div>
+	</section>
+
+	<section id="organizer">
+		<div class="inner">
+			<h2>List of members and observers</h2>
+			<h3>【regular member】</h3>
+			<ul class="flex">
+        <li><a href="https://www.nttdocomo.co.jp/" target="_blank">NTT DOCOMO, INC.</a></li>
+        <li><a href="http://dwango.co.jp/" target="_blank">DWANGO Co., Ltd.</a></li>
+        <li><a href="https://www.softbank.jp/" target="_blank">SoftBank Corp.</a></li>
+        <li><a href="https://www.persol-group.co.jp/" target="_blank">PERSOL HOLDINGS CO., LTD.</a></li>
+        <li><a href="https://www.pixiv.co.jp/" target="_blank">pixiv Inc.</a></li>
+        <li><a href="https://virtualcast.jp/" target="_blank">VirtualCast, Inc.</a></li>
+        <li><a href="https://unity.com/ja" target="_blank">Unity Technologies Japan Co.,Ltd.</a></li>
+        <li><a href="https://reality.inc/" target="_blank">REALITY, Inc.</a></li>
+        <li><a href="https://www.real-avatar.com/" target="_blank">Real Avatar, Inc.</a></li>
+        <li><a href="https://studio-q.co.jp/" target="_blank">Project Studio Q, Inc.</a></li>
+        <li><a href="https://www.brushup-inc.com/" target="_blank">Brushup Inc.</a></li>
+        <li><a href="https://s-court.me/" target="_blank">S-court CO., LTD.</a></li>
+        <li><a href="https://corp.cluster.mu/" target="_blank">Cluster, Inc.</a></li>
+        <li><a href="https://avex-technologies.com/" target="_blank">Avex Technologies Inc.</a></li>
+        <li><a href="http://moe-law.com/" target="_blank">MOE Group Holdings Ltd.</a></li>
+			</ul>
+			<h3>【supporting member】</h3>
+			<ul class="flex">
+        <li><a href="http://www.gck.co.jp/" target="_blank">Global Communication Planning Co., Ltd.</a></li>
+        <li><a href="https://benelic.com/" target="_blank">BENELIC CO.,LTD.</a></li>
+        <li><a href="https://www.ksdl.co.jp/" target="_blank">K’s DESIGN LAB, Inc.</a></li>
+        <li><a href="http://www.jnca.or.jp/" target="_blank">Japan Net Creators Association</a></li>
+        <li><a href="https://vruitz.co.jp/" target="_blank">VRUITZ Co., Ltd</a></li>
+			</ul>
+			<h3>【observer】</h3>
+			<ul>
+        <li><a href="https://www.nintendo.co.jp/" target="_blank">Nintendo Co., Ltd.</a></li>
+        <li><a href="https://www.nhk.or.jp/strl/" target="_blank">NHK Science & Technology Research Laboratories</a></li>
+			</ul>
+		</div>
+	</section>
+
+</div><!--container-->
+
+
+<footer id="footer">
+	<h2>Contact Us</h2>
+	<p>Membership Application and Inquiries：VRM Consortium Secretariat</p>
+　　　 　<a href="mailto:vrmc-pr@vrm-consortium.org">vrmc-pr@vrm-consortium.org</a>
+</footer>
+
+</body>
+</html>
