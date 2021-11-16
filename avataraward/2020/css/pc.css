@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+/*---------------------------- PC向けのスタイル ----------------------------*/
+@media print, screen and (min-width: 680px) {
+
+html{
+  font-size: 75%;
+}
+
+/*---------- ページ全体の指定 ----------*/
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  background: rgb(62,29,72);
+  background: linear-gradient(315deg, rgba(62,29,72,1) 0%, rgba(8,43,60,1) 100%);
+  -webkit-text-size-adjust: none;
+}
+
+section{
+  margin: 32px auto;
+}
+
+a:link{color: #fff;}
+a:visited{color: #fff;}
+
+ul{
+  width: 680px;
+  margin: 16px auto;
+  list-style: disc;
+  padding-left: 32px;
+  font-size: 1.2rem;
+}
+
+/*---------- メイン ----------*/
+
+#main {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+/*---------- メイン画像 ----------*/
+
+#header-img {
+  clear: both;
+  width: 100%;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.main_image {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+
+/*---------- コンテンツ ----------*/
+
+#container {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  padding: 6px 0 10px 0;
+}
+
+
+/*---------- メインコンテンツ ----------*/
+
+#contents {
+  margin: 0;
+  padding: 16px 0 20px 0;
+  width: 1024px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  line-height: 1.7;
+}
+
+#contents h2 {
+  height: auto;
+  margin: 0 0 14px 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+  text-shadow: 0 0 21px #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#contents h3 {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 1.8rem;
+}
+
+#contents p {
+  margin: 16px auto;
+  width: 680px;
+  padding: 0 2px 0 2px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+#contents p.terms {
+  height: 300px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}
+
+#contents img {
+  width: 30%;
+  padding: 5px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}
+
+/*---------- PC背景全幅 ----------*/
+
+.inners {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  padding: 0 10px 0 13px;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
+
+
+
+
+
+
+/*---------- フッター ----------*/
+
+#footer {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+
+
+
+/*---------------------------- タブレット向けのスタイル ----------------------------*/
+@media print, screen and (min-width:680px) and (max-width:920px) {
+
+#main,
+#header h1,
+#header #header_inner,
+#container,
+#contents,
+.inners,
+#footer .footer_nav ul {
+  width: 100%;
+}
