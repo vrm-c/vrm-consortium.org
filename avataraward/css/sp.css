@@ -122,6 +122,7 @@ ul{
   padding: 2px;
   line-height: 1.5;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 #contents p.terms {
@@ -131,6 +132,12 @@ ul{
   font-size: 1.2rem;
 }
 
+#contents img {
+  padding: 5px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}
 
 /*---------- フッター ----------*/
 

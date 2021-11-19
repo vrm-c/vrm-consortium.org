@@ -106,6 +106,7 @@ ul{
   width: 680px;
   padding: 0 2px 0 2px;
   line-height: 1.7;
+    text-align: center;
 }
 
 #contents p.terms {
@@ -115,6 +116,12 @@ ul{
   font-size: 1.2rem;
 }
 
+#contents img {
+  padding: 5px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+}
 
 /*---------- PC背景全幅 ----------*/
 
