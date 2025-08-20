@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 body{
-    background-color:#38a187;
+    background-color:#81CE8E;
 /*    background:linear-gradient(120deg,#39a187,#ffde42);*/
     margin:0px;
     padding:0px;
     font-family: 'Noto Sans JP', sans-serif;
+    color:#0f1419;
 }
 
 #main{
@@ -138,7 +139,7 @@ a{
 /*受賞結果*/
 #kekka{
     padding-bottom:20px; 
-    background:linear-gradient(120deg,#db8eff,#78efdd);
+    background:linear-gradient(120deg,#fdf09a, #BFDF94, #81CE8E, #05ac82);
 }
 
 #kekka h3{
@@ -294,7 +295,7 @@ a{
 /* 選考結果について */
 #senkoukekka{
     padding:50px;
-    background:linear-gradient(120deg,#db8eff,#78efdd);
+    background:linear-gradient(120deg,#fdf09a, #BFDF94, #81CE8E, #05ac82);
 }
 
 #senkoukekka p{
@@ -346,7 +347,7 @@ a{
 /*アーカイブ*/
 #archives{
     padding:20px;
-    background:#ffe052;
+    background:#f8e36f;
 }
 
 .award{
@@ -363,7 +364,7 @@ a{
 /*copyright*/
 #copy{
     text-align: center;
-    color:#fff;
+    color:#0f1419;
 }
 
 /* モバイル用 */
