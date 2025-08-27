@@ -239,6 +239,7 @@ a{
     max-width: 500px;
     min-width: 100px;
     padding: 20px;
+    margin: 0 auto;
     float: none;
 }
 
