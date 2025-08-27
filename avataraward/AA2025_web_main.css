@@ -234,6 +234,18 @@ a{
     color: white
 }
 
+/* 協賛 */
+.sponsor_disc{
+    max-width: 500px;
+    min-width: 100px;
+    padding: 20px;
+    float: none;
+}
+
+.picture_sponsor{
+    margin: 5px;
+    float: none;
+}
 
 /* 審査員 */
 #shinsain{
@@ -381,9 +393,22 @@ a{
         display: none;
     }
 
+    .picture_sponsor{
+        margin: 5px;
+        text-align: center;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
     .shinsains .picture{
         float:none;
         text-align: center;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     .shinsains_disc{
